@@ -1,0 +1,25 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "An app that takes in parameters and gives you back relevant data from Twitter, Spotify or OMDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Komorebi-Girl/liri-node-app.git"
+  },
+  "author": "Stacy J.P.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Komorebi-Girl/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/Komorebi-Girl/liri-node-app#readme",
+  "dependencies": {
+    "inquirer": "^5.0.0",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.83.0",
+    "twitter": "^1.7.1"
+  }
+}
